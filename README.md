@@ -6,7 +6,23 @@ To Develop a convolutional deep neural network for image classification and to v
 
 ## Problem Statement and Dataset
 
-Include the Problem Statement and Dataset.
+The objective of this experiment is to develop a Convolutional Neural Network (CNN) using PyTorch to perform multi-class image classification. The model takes grayscale images as input and classifies them into one of ten categories. The aim is to extract meaningful features using convolutional layers and accurately predict the corresponding class label.
+The dataset used in this experiment consists of grayscale images of size 28 × 28 pixels, designed for multi-class image classification. Each image belongs to one of 10 different classes, represented by numeric labels ranging from 0 to 9.
+
+Each image is stored as a tensor of shape:
+
+(1 × 28 × 28)
+
+
+Where:
+
+1 represents the grayscale channel
+
+28 × 28 represents the image dimensions
+
+Labels represent the corresponding class category
+
+For implementation and testing purposes, the dataset was loaded using PyTorch utilities such as TensorDataset and DataLoader, enabling efficient batching and training of the CNN model.
 
 ## Neural Network Model
 <img width="1347" height="490" alt="image" src="https://github.com/user-attachments/assets/1c3e3ef2-9665-42f5-b8ef-f55f6e4254e8" />
